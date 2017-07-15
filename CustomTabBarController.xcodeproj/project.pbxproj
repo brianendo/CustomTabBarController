@@ -9,21 +9,23 @@
 /* Begin PBXBuildFile section */
 		8E407D7B1F193788004DEF40 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E407D7A1F193788004DEF40 /* AppDelegate.swift */; };
 		8E407D7D1F193788004DEF40 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E407D7C1F193788004DEF40 /* FirstViewController.swift */; };
-		8E407D7F1F193788004DEF40 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E407D7E1F193788004DEF40 /* SecondViewController.swift */; };
 		8E407D821F193788004DEF40 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8E407D801F193788004DEF40 /* Main.storyboard */; };
 		8E407D841F193788004DEF40 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8E407D831F193788004DEF40 /* Assets.xcassets */; };
 		8E407D871F193788004DEF40 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8E407D851F193788004DEF40 /* LaunchScreen.storyboard */; };
+		8E407D8F1F1937D8004DEF40 /* CustomTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E407D8E1F1937D8004DEF40 /* CustomTabBarController.swift */; };
+		8E407D911F194369004DEF40 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E407D901F194369004DEF40 /* SecondViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		8E407D771F193788004DEF40 /* CustomTabBarController.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CustomTabBarController.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8E407D7A1F193788004DEF40 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8E407D7C1F193788004DEF40 /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
-		8E407D7E1F193788004DEF40 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
 		8E407D811F193788004DEF40 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		8E407D831F193788004DEF40 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8E407D861F193788004DEF40 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8E407D881F193788004DEF40 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8E407D8E1F1937D8004DEF40 /* CustomTabBarController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomTabBarController.swift; sourceTree = "<group>"; };
+		8E407D901F194369004DEF40 /* SecondViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,11 +60,12 @@
 			children = (
 				8E407D7A1F193788004DEF40 /* AppDelegate.swift */,
 				8E407D7C1F193788004DEF40 /* FirstViewController.swift */,
-				8E407D7E1F193788004DEF40 /* SecondViewController.swift */,
+				8E407D901F194369004DEF40 /* SecondViewController.swift */,
 				8E407D801F193788004DEF40 /* Main.storyboard */,
 				8E407D831F193788004DEF40 /* Assets.xcassets */,
 				8E407D851F193788004DEF40 /* LaunchScreen.storyboard */,
 				8E407D881F193788004DEF40 /* Info.plist */,
+				8E407D8E1F1937D8004DEF40 /* CustomTabBarController.swift */,
 			);
 			path = CustomTabBarController;
 			sourceTree = "<group>";
@@ -140,8 +143,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8E407D7F1F193788004DEF40 /* SecondViewController.swift in Sources */,
+				8E407D911F194369004DEF40 /* SecondViewController.swift in Sources */,
 				8E407D7B1F193788004DEF40 /* AppDelegate.swift in Sources */,
+				8E407D8F1F1937D8004DEF40 /* CustomTabBarController.swift in Sources */,
 				8E407D7D1F193788004DEF40 /* FirstViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -269,6 +273,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 9M5LJ68Y64;
 				INFOPLIST_FILE = CustomTabBarController/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.prynt.CustomTabBarController;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -282,6 +287,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 9M5LJ68Y64;
 				INFOPLIST_FILE = CustomTabBarController/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.prynt.CustomTabBarController;
 				PRODUCT_NAME = "$(TARGET_NAME)";
